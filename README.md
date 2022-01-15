@@ -69,6 +69,7 @@ To run this project locally make sure to install the dependencies mentioned abov
 
 
 Alternative:
+
 Visit this link to interact with the application on a google browser: https://rubrixks.github.io
 
 
@@ -91,3 +92,22 @@ rubrixks.eth
 **Screencast Link:**
 Visit this link to view a demo of the application from the viewpoint of the creator of the application:
 https://youtu.be/mnf5ryN5N_k
+
+**For the Grader:**
+
+Please leave any comments on how to improve this project. I would like to deploy this project onto mainnet through a L2 this year. Here is where I believe I need suggestions and comments:
+
+1.How to increase Losses when transferring NFTs
+
+ I would like to have the amount of Losses increase if an NFT is transfered to another wallet, but I was not sure how to add that functionality.
+
+2.Price for NFT
+
+ I am debating if this NFT should be free or charge a small amount( <.0001 ETH). The reason for charging is I can imagine a scenario where someone will try to mint an absurd amount of NFTs bc the limit is so large to make everyone lose The Game. 
+
+ 3.Add an Events when minting or transfering Losses
+
+ I did not know how to distinguish a loss from an NFT being minted and if someone were to transfer their nft to a friend.
+
+Any comments will be of great help. Thank you!
+
