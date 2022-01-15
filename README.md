@@ -22,12 +22,14 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 5.Users can then check how many people have lost The Game and how many losses their account has.
 
 **Installed Dependencies:**
+
 -metamask
 -openzepplin
 -truffle suite
 
 **Accessing Project:**
-Visit https://rubrixks.github.io
+
+Visit this link to interact with the application on a google browser: https://rubrixks.github.io
 
 
 **Run Unit Tests:**
@@ -41,4 +43,5 @@ rubrixks.eth
 
 
 **Screencast Link:**
+Visit this link to view a demo of the application from the viewpoint of the creator of the application:
 https://youtu.be/mnf5ryN5N_k
