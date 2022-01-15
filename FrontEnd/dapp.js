@@ -602,13 +602,13 @@ window.addEventListener('load', function() {
         var amount;
         AnnounceLosses.onclick = async () => {
             amount = document.getElementById('TheGameAnnounceLoss-amount').value;
-            console.log(amount);
+            
             const price = await TheGame.methods.getLossBasePrice().call({from:ethereum.selectedAddress});
-            console.log(price);
+            
             var totalLosses = await TheGame.methods.getMintedLosses().call({from:ethereum.selectedAddress});
-            console.log(totalLosses);
+            
             var totalCost = price * amount;
-            console.log(totalCost);
+            
             
           await TheGame.methods.mintLosses(ethereum.selectedAddress,amount).send({from:ethereum.selectedAddress,value:(`${totalCost}`)});
         }
@@ -629,9 +629,9 @@ window.addEventListener('load', function() {
           var creatorBalance = await web3.eth.getBalance(ethereum.selectedAddress);
           var contractBalance = await web3.eth.getBalance(Address);
           withdraw.innerHTML =  "Your current balance is " + creatorBalance + ". The balance of the contract is " + contractBalance;
-          await TheGame.methods.withdraw().call({from:ethereum.selectedAddress});
+          await TheGame.methods.withdraw().send({from:ethereum.selectedAddress});
           var newCreatorBalance = await web3.eth.getBalance(ethereum.selectedAddress);
-          withdraw.innerHTML = "Your previous balance was " + creatorBalance + ". The previous contract balance was" + contractBalance + ". Your new balance is " + newCreatorBalance +".";
+          withdraw.innerHTML = "Your previous balance was " + creatorBalance + ". The previous contract balance was " + contractBalance + ". Your new balance is " + newCreatorBalance +".";
         }
         }
     }
