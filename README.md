@@ -23,6 +23,7 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 	5.Users can then check how many people have lost The Game and how many losses their account has.
 
 **Directory Structure:**
+
 	Backend
         -build folder: contains json files of the The Game contract
         -contracts folder: contains the migrations and TheGame solidity files
