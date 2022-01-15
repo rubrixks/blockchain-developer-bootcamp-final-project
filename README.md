@@ -21,7 +21,7 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 4.Either user must send the amount requested to mint the Losses onto their wallet.
 5.Users can then check how many people have lost The Game and how many losses their account has.
 
-**Installed Dependencies:**
+**Install Dependencies:**
 
 	-metamask: https://metamask.io/
 	-openzepplin: https://docs.openzeppelin.com/contracts/4.x/
@@ -29,7 +29,11 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 
 **Accessing Project:**
 
+To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. Through the terminal use git clone 
+
 Visit this link to interact with the application on a google browser: https://rubrixks.github.io
+
+
 
 
 **Run Unit Tests:**
