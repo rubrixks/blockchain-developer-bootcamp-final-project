@@ -12,7 +12,7 @@ contract("TheGame", function ( accounts ) {
   });
   it("The GameStart is false", async () => {
     var instance = await TheGame.deployed();
-    var hasGameStarted = await instance.GameStarts();
+    var hasGameStarted = await instance.gameStarts();
     assert.equal(hasGameStarted,false,`GameStart is equal to ${hasGameStarted}`);
   });
   it("The total amount of Losses minted should be 0", async () => {
@@ -24,18 +24,18 @@ contract("TheGame", function ( accounts ) {
     it ("Only owner can call firstLoser and game begins.", async () => {
       var instance = await TheGame.deployed();
       try {
-        await instance.firstLoser({from:accounts[1], value: web3.utils.toWei(".0025")});
+        await instance.firstLoser({from:accounts[1], value: web3.utils.toWei(".001")});
       } catch(err) {};
 
-      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".0025")});
-      var hasGameStarted = await instance.GameStarts();
+      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".001")});
+      var hasGameStarted = await instance.gameStarts();
       var numOfLosses = await instance.lossFinder(accounts[0]);
       assert.equal(numOfLosses,10,"amount of losses minted should be 10");
       assert.equal(hasGameStarted,true,`GameStart is equal to ${hasGameStarted}`);
     });
     it ("Minted NFT's URI is baseURI",async () => {
       var instance = await TheGame.deployed();
-      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".0025")});
+      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".001")});
       for (var i =1; i<=10; i++) {
         assert(instance.tokenURI(i),instance.baseURI());
       }
@@ -45,7 +45,7 @@ contract("TheGame", function ( accounts ) {
     
       let balance = await web3.eth.getBalance(instance.address);
       
-      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".0025")});
+      await instance.firstLoser({from:accounts[0], value: web3.utils.toWei(".001")});
       balance = await web3.eth.getBalance(instance.address);
       await instance.withdraw({from:accounts[0]});
       balance = await web3.eth.getBalance(instance.address);
