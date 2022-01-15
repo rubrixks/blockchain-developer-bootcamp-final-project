@@ -43,14 +43,16 @@ Visit this link to interact with the application on a google browser: https://ru
 To run unit test the user may clone the repository and interact with it with the truffle suite. Make sure to have installed all previous mentioned dependencies.
 
     1.Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
-    2.Go into your text editor and open your terminal.
-    3.Inside the terminal use this command 'cd Backend' to jump into the Backend folder.
-    4.Once inside the Backend folder run 'truffle test'. All 6 tests should pass
+    2. Find your file within your machine and open this project in your text editor
+    3.Within your text editor open your terminal and cd into blockchain-developer-bootcamp-final-project.
+    4.Inside the terminal use this command 'cd Backend' to jump into the Backend folder.
+    5.Once inside the Backend folder run 'truffle test'. All 6 tests should pass.
 
 
 **Ethereum Address:**
 rubrixks.eth
 
+0x3058B13c47A5c6472181A82A4C1Ce7150D5f638F
 
 **Screencast Link:**
 Visit this link to view a demo of the application from the viewpoint of the creator of the application:
