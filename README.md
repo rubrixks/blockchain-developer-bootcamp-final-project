@@ -15,6 +15,7 @@ It would be difficult to search through social medias and other sites to determi
 By having a decentralized immutable ledger, anyone in the world can see and count what addresses have lost The Game.
 
 **Work Flow:**
+
 	1.Users will visit the website and be first be shown a description of what The Game is, and why this was made. 
 	2.The website will detect a wallet, and ask to connect the wallet to the website.
 	3.If the user is the creator of the contract, they can begin the game and mint 10 Losses. If the user is not the creator, they can mint as many losses as they wish
