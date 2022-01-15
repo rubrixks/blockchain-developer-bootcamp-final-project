@@ -22,6 +22,23 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 	4.Either user must send the amount requested to mint the Losses onto their wallet.
 	5.Users can then check how many people have lost The Game and how many losses their account has.
 
+**Directory Structure:**
+    -Backend
+        -build folder: contains json files of the The Game contract
+        -contracts folder: contains the migrations and TheGame solidity files
+        -migrations folder: contains the migrations files needed from js
+        -test folder: contains the tests needed in a js file
+        -truffle-config.js
+    -Frontend
+        -dapp.js
+        -index.html
+    -Text_Documentation
+        -avoiding_common_attacks.md
+        -deployed_address.txt
+        -design_pattern_decisions.md
+    -.gitignore
+    -README.md
+
 **Install Dependencies:**
 
 	-metamask: https://metamask.io/
@@ -43,7 +60,7 @@ Visit this link to interact with the application on a google browser: https://ru
 To run unit test the user may clone the repository and interact with it with the truffle suite. Make sure to have installed all previous mentioned dependencies.
 
     1.Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
-    2. Find your file within your machine and open this project in your text editor
+    1. Find your file within your machine and open this project in your text editor
     3.Within your text editor open your terminal and cd into blockchain-developer-bootcamp-final-project.
     4.Inside the terminal use this command 'cd Backend' to jump into the Backend folder.
     5.Once inside the Backend folder run 'truffle test'. All 6 tests should pass.
