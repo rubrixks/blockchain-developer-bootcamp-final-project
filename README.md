@@ -23,21 +23,21 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 	5.Users can then check how many people have lost The Game and how many losses their account has.
 
 **Directory Structure:**
-    -Backend
+	Backend
         -build folder: contains json files of the The Game contract
         -contracts folder: contains the migrations and TheGame solidity files
         -migrations folder: contains the migrations files needed from js
         -test folder: contains the tests needed in a js file
         -truffle-config.js
-    -Frontend
+	Frontend
         -dapp.js
         -index.html
-    -Text_Documentation
+	Text_Documentation
         -avoiding_common_attacks.md
         -deployed_address.txt
         -design_pattern_decisions.md
-    -.gitignore
-    -README.md
+	.gitignore
+	README.md
 
 **Install Dependencies:**
 
