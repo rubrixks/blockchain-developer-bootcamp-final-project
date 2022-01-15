@@ -29,7 +29,8 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 
 **Accessing Project:**
 
-To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. Through the terminal use git clone 
+To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
+
 
 Visit this link to interact with the application on a google browser: https://rubrixks.github.io
 
