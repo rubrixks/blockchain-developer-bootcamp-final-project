@@ -23,9 +23,9 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 
 **Installed Dependencies:**
 
--metamask
--openzepplin
--truffle suite
+	-metamask
+	-openzepplin
+	-truffle suite
 
 **Accessing Project:**
 
