@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheGame</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body style ="background-color: black;">
+</body>
+<h1  style ="color:whitesmoke;">The Game.</h1>
+<h2  style="color: whitesmoke;">What is "The Game"?</h2>
+<div style="color: whitesmoke;">This is one of the oldest jokes on the internet, created long ago to troll anyone who has ever heard of this game.</h2>
+<div style="color: whitesmoke;">The concept is simple. This is a mental game where the objective is to not think about The Game. Ever. That's it. </div>
+<div style="color: whitesmoke;">I'd imagine most people go throughout their lives without ever hearing of The Game. Those are the lucky ones.</div>
+<div style="color: whitesmoke;">There are variations to the rules of The Game, but for this iteration here are the rules:</div>
+<div style="color: whitesmoke;">1.A player loses the game the moment the concept of The Game registers onto their minds.</div>
+<div style="color: whitesmoke;">2.The player then has to announce to the internet they lost The Game.</div>
+<div style="color: whitesmoke">3.Thereafter, don't think about it again. The Game never ends... it ends for the player when they croak. </div>
+
+<h3  style="color: whitesmoke;">Why use Ethereum to announce you lost The Game?</h3>
+<div style="color: whitesmoke;">You can announce your loss in many different ways. You can announce it to those around you. You can post it on your social media.</div>
+<div style="color: whitesmoke;">But now you can post it on the Ethereum blockchain.</div>
+<div style="color: whitesmoke;">This method is better for maintaining a global scoreboard. Through other sources it is difficult to measure metrics of The Game. </div>
+<div style="color: whitesmoke;">With this method of recording, anyone can follow who has lost The Game, how often it thought about, and how The Game spreads through a network. All with a sort of anonymity.</div>
+<div style="color: whitesmoke">As a community we can learn much about ourselves by having this information on a decentralized blockchain.</div>
+
+
+<h4  style = "font-size: large;">Connect your Metamask account:</h4>
+<!-- 1.Detect if the user has MetaMask and connect account -->
+<div style="color: whitesmoke;">To use this application you must first connect your MetaMask account:</div>
+
+<!-- <div style="color: whitesmoke;">To announce your loss a MetaMask account is required.</div> -->
+<div id ="mm-detected"></div>
+<!-- 2.allow the user to get access to MetaMask -->
+<button id= "mm-connect">Connect your MetaMask account</button>
+
+<div></div>
+
+<h5 style = "font-size: large;">Announce Loss</h5>
+<!--3.Allow the user to send a transaction / update contract-->
+<div> This requires honesty. If this is your first time thinking of the game, announce one loss.</div>
+<div>Any more losses will help up know how often people think of The Game.</div>
+<input id ="TheGameAnnounceLoss-amount" type="number" value="1" placeholder="Provide Input">
+
+<button id= "TheGameAnnounceLoss-button">Announce your Loss</button>
+
+
+
+
+<!--4.Allow the user to read from state  -->
+<h5 style = "font-size: large;">The Game Metrics</h5>
+<div>If your Metamask account is connected, here you can press buttons to see the total amount of losses, and the number of times you have thought of The Game.</div>
+<button id="TheGameLossCount">Count of recorded losses</button>
+
+<div></div>
+
+<button id="LossChecker">Check your losses</button>
+
+<div></div>
+<!-- Creator begins the Game and mints 10 Losses -->
+<h6 style = "font-size: large;">Creator of contract functions only</h6>
+
+<div style ="color: whitesmoke" style = "font-size: medium;">Creator begin The Game</div>
+<button id='BeginGameButton'>Creator Only-Mint the First Loss</button>
+<div></div>
+
+<!-- Allows creator to check Balance -->
+<div >If you are not the creator of the contract, clicking submit failed messages</div>
+
+
+
+<button id="Withdraw">Creator Withdraw Eth</button>
+
+
+
+<script src="dapp.js"></script>
+</html>
