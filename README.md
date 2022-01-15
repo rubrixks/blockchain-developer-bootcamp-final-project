@@ -9,7 +9,7 @@ https://en.wikipedia.org/wiki/The_Game_(mind_game)
 
 This project is focusing on the meme'ers of the internet, but there is no intention of over promising.
 The use case is simple. If anyone in the world thinks of The Game, instead of posting their L on reddit or twitter,
-the individual can mint the Lost NFT for .00001 Ether.
+the individual can mint the Lost NFT for .0001 Ether.
 Why blockchain technology? This is now the best way to record and announce to the world that someone has lost The Game for generations to come.
 It would be difficult to search through social medias and other sites to determine how many people have lost. 
 By having a decentralized immutable ledger, anyone in the world can see and count what addresses have lost The Game.
@@ -42,18 +42,34 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 
 **Install Dependencies:**
 
-	-metamask: https://metamask.io/
-	-openzepplin: https://docs.openzeppelin.com/contracts/4.x/
-	-truffle suite: https://trufflesuite.com/docs/truffle/getting-started/installation
+	metamask: https://metamask.io/
+	openzepplin: https://docs.openzeppelin.com/contracts/4.x/
+	truffle suite: https://trufflesuite.com/docs/truffle/getting-started/installation
 
 **Accessing Project:**
 
-To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
+
+Locally:
+To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. 
+
+1.Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
 
 
+2.Open this file with your preferred text editor and populate your ENV and .gitignore file like so:
+
+        Within .gitignore file:
+        Type .env
+
+        Within .env file:
+        Type MNEMONIC = *insert mnemonic of your wallet here*;
+        Type INFURA_URL = *insert the infura URL of your preferred testnet here*;
+
+
+3.Once this step 2 is complete, run truffle develop within the terminal in your text editor to test the project. 
+
+
+Alternative:
 Visit this link to interact with the application on a google browser: https://rubrixks.github.io
-
-
 
 
 **Run Unit Tests:**
