@@ -1,6 +1,6 @@
 #The Game
 
-Concept:
+**Concept:**
 
 Im sorry to whoever is reviewing this final project, for I have made you lose The Game.
 If you do not know the rules, or if this is your first time hearing of this, here is the wikipedia link for reference.
@@ -14,31 +14,40 @@ Why blockchain technology? This is now the best way to record and announce to th
 It would be difficult to search through social medias and other sites to determine how many people have lost. 
 By having a decentralized immutable ledger, anyone in the world can see and count what addresses have lost The Game.
 
-Work Flow:
-1.Users will visit the website and be first be shown a description of what The Game is, and why this was made. 
-2.The website will detect a wallet, and ask to connect the wallet to the website.
-3.If the user is the creator of the contract, they can begin the game and mint 10 Losses. If the user is not the creator, they can mint as many losses as they wish
-4.Either user must send the amount requested to mint the Losses onto their wallet.
-5.Users can then check how many people have lost The Game and how many losses their account has.
+**Work Flow:**
 
-Installed Dependencies:
--metamask
--openzepplin
--truffle suite
+	1.Users will visit the website and be first be shown a description of what The Game is, and why this was made. 
+	2.The website will detect a wallet, and ask to connect the wallet to the website.
+	3.If the user is the creator of the contract, they can begin the game and mint 10 Losses. If the user is not the creator, they can mint as many losses as they wish
+	4.Either user must send the amount requested to mint the Losses onto their wallet.
+	5.Users can then check how many people have lost The Game and how many losses their account has.
 
-Accessing Project:
-Visit https://rubrixks.github.io
+**Install Dependencies:**
 
+	-metamask: https://metamask.io/
+	-openzepplin: https://docs.openzeppelin.com/contracts/4.x/
+	-truffle suite: https://trufflesuite.com/docs/truffle/getting-started/installation
 
-Run Unit Tests:
-To run unit test the user may clone the repository and interact with it with the truffle suite.
+**Accessing Project:**
 
+To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
 
 
+Visit this link to interact with the application on a google browser: https://rubrixks.github.io
 
-Ethereum Address:
+
+
+
+**Run Unit Tests:**
+To run unit test the user may clone the repository and interact with it with the truffle suite.  
+
+
+
+
+**Ethereum Address:**
 rubrixks.eth
 
 
-Screencast Link:
+**Screencast Link:**
+Visit this link to view a demo of the application from the viewpoint of the creator of the application:
 https://youtu.be/mnf5ryN5N_k
