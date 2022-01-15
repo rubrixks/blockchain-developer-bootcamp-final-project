@@ -50,6 +50,7 @@ By having a decentralized immutable ledger, anyone in the world can see and coun
 
 
 Locally:
+
 To run this project locally make sure to install the dependencies mentioned above. Once installed clone this project onto your machine. 
 
 1.Through the terminal use 'git clone https://github.com/rubrixks/blockchain-developer-bootcamp-final-project.git'
@@ -95,7 +96,7 @@ https://youtu.be/mnf5ryN5N_k
 
 **For the Grader:**
 
-Please leave any comments on how to improve this project. I would like to deploy this project onto mainnet through a L2 this year. Here is where I believe I need suggestions and comments:
+Please leave any comments on how to improve this project. I would like to deploy this project onto mainnet through an L2 this year. Aside from any security risks, here is where I believe I need suggestions and comments:
 
 1.How to increase Losses when transferring NFTs
 
